@@ -1,12 +1,12 @@
 Package: HMMrefs
-Title: What the Package Does (One Line, Title Case)
+Title: Reference Data for HMMcopy Analysis
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Marc", "Williams", email = "marcjwilliams1@gmail.com", role = c("aut", "cre"))
+Description: Provides pre-processed reference data (mappability and GC content) 
+    for HMMcopy binning analysis. Includes data for both GRCh37 (hg19) and GRCh38 
+    (hg38) genome builds across multiple bin sizes ranging from 10kb to 5Mb.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
